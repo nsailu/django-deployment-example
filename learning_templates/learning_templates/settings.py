@@ -25,7 +25,7 @@ SECRET_KEY = 'o(_$-p(lo40^f3&5i7!2mem1m704%lf=sflx=)5x4mh(-cwjxb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['community.pythonanywhere.com']
+ALLOWED_HOSTS = ['nsailu.pythonanywhere.com']
 
 
 # Application definition
