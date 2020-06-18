@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+  {% block body_block %}
+
+    <!-- <h2>This is index.html page inheriting base.html</h2> -->
+    <h1>Welcome to index</h1>
+    <h1>{{ text|cut:'hello'}}</h1>
+    <h1>{{ number|add:"99" }}</h1>
+    <h3>HI!</h3>
+  {% endblock %}
